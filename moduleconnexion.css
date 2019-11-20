@@ -1,0 +1,351 @@
+/*-----------------------HEADER / FOOTER -----------*/
+
+header{
+
+    
+    border-bottom: 1.5px solid rgb(125, 82, 26);
+    display: flex;
+    flex-direction: row;
+    font-size: 175%;
+    font-family: 'Saira Extra Condensed', sans-serif;
+   
+    width: 100%;
+    text-shadow: 3px 3px 3px black;
+}
+
+#menuheader1{
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center
+}
+
+#menuheader2{
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+header a:link{
+    color:white;
+    text-decoration: none;
+}
+
+header a:visited{
+    color:white;
+    text-decoration: none;
+}
+
+header a:active
+{
+    color:white;
+    text-decoration: none;
+}
+
+header a:hover
+{
+	border-top: 3px solid white;
+	padding-top: 1%;
+    text-shadow:0px 0px 10px #ca9421, 0px 0px 10px #ca9421,0px 0px 10px #ca9421;
+    transition: all 0.5s ease-out;
+}
+
+nav
+{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	width:100%;
+}
+
+nav input[type="submit"]
+{
+	background-color:transparent;
+	border:none;
+	outline:none;
+	font-size: 85%;
+	color: white;
+	text-shadow: 3px 3px 3px black;
+
+}
+
+nav input[type="submit"]:hover
+{
+	border-top: 3px solid white;
+	padding-top: 1%;
+    text-shadow:0px 0px 10px #ca9421, 0px 0px 10px #ca9421,0px 0px 10px #ca9421;
+	transition: all 
+}
+
+
+
+
+
+/*---------------------Page Index -----------------*/
+.bodyindex{
+	background-image: url(photo/backindex.jpg);
+	background-repeat: no-repeat;
+	background-size: 50%;
+
+}
+
+	
+
+
+#accueil{
+
+	float: right;
+	margin-top: 15%;
+	margin-right: 15% ;
+	font-size: 50px;
+    background-color: blue ; 
+  	font-family: 'Oswald', sans-serif;
+	text-transform: uppercase;
+	letter-spacing: 4px;
+	overflow: hidden;
+	background: linear-gradient(90deg, red, blue, purple);
+	background-repeat: no-repeat;
+	background-size: 80%;
+	animation: animate 3s linear infinite;
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: rgba(255, 255, 255, 0);
+}
+
+@keyframes animate {
+  0% {
+    background-position: -500%;
+  }
+  100% {
+    background-position: 500%;
+  }
+}
+
+
+
+/*-------------------Page Inscription ---------------------*/
+
+.bodyinscription{
+	background-image: url(photo/backinscription.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+#titreinscription{
+	font-family: 'Oswald', sans-serif;
+	text-align: center;
+	color: black;
+}
+
+#false2{
+	font-family: 'Oswald', sans-serif;
+	background: rgba(0,0,0,.75);
+	margin:40px auto;
+	text-align: center;
+	color: red ;
+	font-size: 30px;
+	width: 20%;
+	border-radius: 10px;
+}
+
+.formulaireinscription{
+
+	width:450px;
+	padding:30px;
+	margin:40px auto;
+	background: rgba(255,255,255,.75);
+	border-radius: 10px;
+	-webkit-border-radius:10px;
+	-moz-border-radius: 10px;
+	box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.13);
+	-moz-box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.13);
+	-webkit-box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.13);
+}
+
+.formulaireinscription .info{
+	font-family: 'Oswald', sans-serif;
+	text-align: center;
+	padding: 30px;
+	background: rgba(255,255,255,.75);
+	border-radius: 6px;
+	margin-bottom: 15px;
+}
+
+
+.formulaireinscription label{
+	text-align: center;
+	display: block;
+	font: 15px Arial, Helvetica, sans-serif;
+	color: #888;
+	margin-bottom: 15px;
+}
+
+.formulaireinscription input{
+	font-size: 20px;
+	color: red ;
+	border-radius: 15% ;
+}
+
+
+
+/*-------------------Page Connexion ---------------------*/
+
+.bodyconnexion{
+	background-image: url(photo/backconnexion.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+#titreconnexion{
+	font-family: 'Oswald', sans-serif;
+	text-align: center;
+	color: purple;
+}
+
+#false3{
+	font-family: 'Oswald', sans-serif;
+	background: rgba(0,0,0,.75);
+	margin:40px auto;
+	text-align: center;
+	color: red ;
+	font-size: 30px;
+	width: 20%;
+	border-radius: 10px;
+}
+
+
+.formulaireconnexion{
+
+	width:450px;
+	padding:30px;
+	margin:40px auto;
+	background: rgba(0,0,0,.75);
+	border-radius: 10px;
+	-webkit-border-radius:10px;
+	-moz-border-radius: 10px;
+	box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.13);
+	-moz-box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.13);
+	-webkit-box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.13);
+}
+
+.formulaireconnexion .infoconnexion{
+	font-family: 'Oswald', sans-serif;
+	text-align: center;
+	padding: 30px;
+	background: rgba(255,255,255,.75);
+	border-radius: 6px;
+	margin-bottom: 15px;
+}
+
+
+.formulaireconnexion label{
+	text-align: center;
+	display: block;
+	font: 17px 'Oswald', sans-serif;;
+	color: black;
+	margin-bottom: 15px;
+}
+
+.formulaireconnexion input{
+	font-size: 20px;
+	color: purple ;
+	border-radius: 15% ;
+}
+
+#false{
+	font-family: 'Oswald', sans-serif;
+  	width:450px;
+	padding:30px;
+	margin:40px auto;
+	text-align: center;
+	color: white ;
+	font-size: 20px;
+	
+}
+
+
+
+
+/*-------------------Page Profil ---------------------*/
+.bodymvp{
+	background-image: url(photo/backprofil.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+#titremvp{
+	text-align: center;
+	color: red ;
+	font: 30px 'Oswald', sans-serif;
+}
+.formulaireprofil{
+
+	width:450px;
+	padding:30px;
+	margin:40px auto;
+	background: rgba(255,255,255,.75);
+	border-radius: 10px;
+	-webkit-border-radius:10px;
+	-moz-border-radius: 10px;
+	box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.13);
+	-moz-box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.13);
+	-webkit-box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.13);
+}
+
+.formulaireprofil .infoprofil{
+	font-family: 'Oswald', sans-serif;
+	text-align: center;
+	padding: 30px;
+	background: rgba(255,255,255,.5);
+	border-radius: 6px;
+	margin-bottom: 15px;
+}
+
+
+.formulaireprofil label{
+	text-align: center;
+	display: block;
+	font: 17px 'Oswald', sans-serif;
+	color: red;
+	margin-bottom: 15px;
+}
+
+.formulaireprofil input{
+	font-size: 25px;
+	color: red ;
+	border-radius: 15% ;
+}
+
+
+/*-------------------Page Admin ---------------------*/
+.bodyadmin{
+	background-image: url(photo/backadmin.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+
+.tableadmin{	
+	padding:30px;
+	margin:40px auto;
+	border: medium solid #000000;
+	width: 50%;
+}
+
+td, th {
+	font-family: 'Oswald', sans-serif;
+	color: white ;
+	border: thin solid #6495ed;
+	text-align: center;
+}
+
+#refuse{
+	font-family: 'Oswald', sans-serif;
+	width:450px;
+	padding:30px;
+	margin:10% auto;
+	text-align: center;
+	color: white ;
+	font-size: 40px;
+}
