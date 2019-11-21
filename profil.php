@@ -35,7 +35,7 @@ $row = mysqli_fetch_array($result);
 session_unset();
 session_destroy();
 header('location:index.php');
-echo "Merci de votre visite";
+
 }
 ?>
                     
